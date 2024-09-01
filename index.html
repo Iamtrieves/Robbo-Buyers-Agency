@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Estate Website Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="styles.css" type="text/css" rel="Stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">ROBBO'S BUYERS AGENCY.</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#footer">About</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="hero" id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Buy and Sell Real Estate Properties</h1>
+                <h3>Discover Your Dream Home & It's Easy Peasy</h3>
+                <p>Your ultimate destination for finding the perfect home. Whether you are searching for a cozy apartment, a luxurious villa or a charming townhouse, our extensive listings have something to suit every taste and budget.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="./images/image.jpg 1 sydney.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$390,000</p>
+                        <span class="beds">1 bed</span>
+                        <span class="baths">1 bath</span>
+                        <span class="sqft">65sqm.</span>
+                        <address>
+                            2307/101 Bathurst Street, Sydney, NSW 2000
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/image.jpg 2 sydney.jpg" alt="Property 2" />
+                    <div class="property-details">
+                        <p class="price">$455,000</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="sqft">148 sqm.</span>
+                        <address>
+                            2706/116 Bathurst Street, Sydney, NSW 2000
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/image 3.jpg" alt="Property 3" />
+                    <div class="property-details">
+                        <p class="price">$480,000</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="sqft"></span>
+                        <address>
+                            58 Hayward Lane, Melbourne VIC 3000
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/image 4.jpg" alt="Property 4" />
+                    <div class="property-details">
+                        <p class="price">$280,000</p>
+                        <span class="beds">1 bed</span>
+                        <span class="baths">1 bath</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            208/182 Collins Street, Melbourne VIC 3000
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/image 5.jpg" alt="Property 5" />
+                    <div class="property-details">
+                        <p class="price">$500,000</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="sqft">177msqr.</span>
+                        <address>
+                            100 Princess Street, Petrie Terrace QLD 4000
+                        </address>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/image 7.jpg" alt="Property 7" />
+                    <div class="property-details">
+                        <p class="price">$455,000</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="sqft">136msqr.</span>
+                        <address>
+                            9/1 Pacific Drive 'Maggies Beachfront Apartments', Horseshoe Bay, Qld 4819
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Realtor 1" />
+                    <h3>Kaiara Spencer</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_2.jpg" alt="Realtor 1" />
+                    <h3>Dave Simpson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_3.jpg" alt="Realtor 1" />
+                    <h3>Ben Thompson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_4.jpg" alt="Realtor 1" />
+                    <h3>Kyla Stewart</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Realtor 1" />
+                    <h3>Rich Moffatt</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Realtor 1" />
+                    <h3>Stuart Redman</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="the-best">
+        <div class="flex container">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
+            <div>
+                <h2>We Are the Best Real Estate Company</h2>
+                <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                <ul>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                </ul>
+                <button class="rounded">Learn More</button>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="services-card-right">
+                        <h3>Search Property</h3>
+                        <p>Find your dream home with ease! Search our extensive database by your location, price, and more. Get intant access to property listings, photos and details.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>Buy Property</h3>
+                        <p>Make your dream a reality! Browse our curated selection of properties for sale, featuring detailed listings, photos, and virtual tours. Find your perfect match and take the first step towards homeownership.</p>
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="services-card-right">
+                        <h3>Investing</h3>
+                        <p>Grow your wealth with smart real estate investments! Explore our expert insights, market trends, and investment opportunities to maximize your return.</p>
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-building"></div>
+                    <div class="services-card-right">
+                        <h3>List a Property</h3>
+                        <p>Reach a wider audience and sell faster! List your property with us and get expert marketing, maximum exposure, and competitve pricing. Take the first step towards a successful sale!</p>
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-search"></div>
+                    <div class="services-card-right">
+                        <h3>Property Locator</h3>
+                        <p>Find the perfect property in the perfect spot! Our property locator allows you to search by location, property type, and more. Start your search now and find your dream home.</p> 
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="services-card-right">
+                        <h3>Luxury Apartments</h3>
+                        <p>Indulge in opulence and sophistication with our selection of luxury apartments where we offer comfort and style.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Are Saying</h2>
+            <div id="testimonials-slider">
+                <div>
+                    <blockquote>
+                        <p>"We were first-time homebuyers and Robbo's Buyers Agency walked us through every step. Their patience and expertise made the process stress-free"</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="./images/image-daniel.jpg" alt="Client 1" />
+                        <p>Nick Andros</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"I was skeptical about investing but Robbo's Buyers Agency made it easy and profitable. Thanks for the great experience. "</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="./images/image-jonathan.jpg" alt="Client 7" />
+                        <p>Larry Underwood</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"I was impressed by your Agency's expertise and dedication. They found me the perfect home at a price i couldn't believe."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="./images/image-jeanette.jpg" alt="Client 7" />
+                        <p>Jeanette Goldsmith</p>
+                    </div>
+                </div>
+                <div>
+                    <blockquote>
+                        <p>"I thought buying a home would be stressful, but this Agency made it a breeze/ Their knowledge and negotiation skills saved me thousands!"</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="./images/image-kira.jpg" alt="Client 7" />
+                        <p>Kira Jones</p>
+                    </div>
+                </div>
+                <div>
+                    <blockquote>
+                        <p>"I was hesitant to work with a buyers agency, but Robbo's Buyers Agency made the transition seamless. They knew teh local market inside and out!"</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="./images/image-patrick.jpg" alt="Client 7" />
+                        <p>Patrick Button</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <span>
+                <p>
+                    If you’d like to chat to an experienced builder, please get in touch with our friendly team. We’re always happy to answer any block or build questions you might have.
+
+                    Simply pick up the phone or fill in the form below and one of our design consultants will be in touch.
+
+                    Not ready to chat just yet, but want to stay in the loop? Our newsletters will keep you up to date with all our latest news.
+                </p>
+            </span>
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write your message here..."></textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    
+
+                    <label>Email Address</label>
+                    <a href="#">trustedfnance@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer" class="flex container">
+            <div class="footer-about">
+                <h5>About Robbo's Buyers Agency</h5>
+                <p>Your trusted buyer's agency. Expert guidance, personalized service, and exceptional results. Try us!</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#footer">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Subscribe to our Newsletter</h5>
+                <div id="subscribe-container">
+                    <input type="text" placeholder="Enter Email" />
+                    <button class="right-rounded">Send</button>
+                </div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright © 2024 All rights reserved <span class="fa fa-heart"></span>
+        </small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
